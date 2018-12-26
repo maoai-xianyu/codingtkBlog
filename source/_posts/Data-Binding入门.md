@@ -12,7 +12,7 @@ categories: "Android Data Binding"
 讲解 用于Android MVVM 的学习，用以丰富自己的知识库。
 
 1. MVVM 
-![image](http://note.youdao.com/yws/res/23797/A1B734F7FD1148099B1380A718C1C5FA)
+![image](http://note.youdao.com/yws/public/resource/3cbd34e35d942c29230fdbfa8a53051a/A1B734F7FD1148099B1380A718C1C5FA?ynotemdtimestamp=1545734131336)
 2. 提高开发效率
 3. 性能高/功能强
 

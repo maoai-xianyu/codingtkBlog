@@ -56,17 +56,17 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
 
 1. 创建一个github仓库
 
-![image](http://note.youdao.com/yws/res/24156/FD4C032F0E7C45FD96A78FEC5F53E2E6)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/FD4C032F0E7C45FD96A78FEC5F53E2E6?ynotemdtimestamp=1545734633728)
 
 2. 点击项目的settings去配置Github Pages
 
-![image](http://note.youdao.com/yws/res/24161/995BBB8F4144484690CD2E8E715BC004)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/995BBB8F4144484690CD2E8E715BC004?ynotemdtimestamp=1545734633728)
 
-![image](http://note.youdao.com/yws/res/24165/A4BEA65DD99148CD9A18A176A14C03B8)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/A4BEA65DD99148CD9A18A176A14C03B8?ynotemdtimestamp=1545734633728)
 
 3. 选择一个theme,之后变成
 
-![image](http://note.youdao.com/yws/res/24169/D405D2C7C001444A9D8DB5EEE98F85A4)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/D405D2C7C001444A9D8DB5EEE98F85A4?ynotemdtimestamp=1545734633728)
 
 4. 如是我们可以 https://maoai-xianyu.github.io/ 访问自己的博客，当然目前只是默认网站，也是以后我们要把自己的写的blog发布到的地方。
 
@@ -78,7 +78,7 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
 hexo init codingtkBlog
 ```
 
-![image](http://note.youdao.com/yws/res/24183/3002AC3044544197B6D43E335C60B947)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/3002AC3044544197B6D43E335C60B947?ynotemdtimestamp=1545734633728)
 
 ```
 hexo g  //g是generetor的缩写，生成博客
@@ -92,19 +92,19 @@ hexo s  //s是server的缩写，启动服务
 
 在github上，获取博客的地址 https
 
-![image](http://note.youdao.com/yws/res/24196/CDA7A7F701944B05B879AD371F432626)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/CDA7A7F701944B05B879AD371F432626?ynotemdtimestamp=1545734633728)
 
 然后在codingtkBlog根目录下的 _config.yml 文件，修改 deploy 下的配置
 
-![image](http://note.youdao.com/yws/res/24192/AF08A546842E4F9C8239D4B7AEB73CAE)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/A3757381A6094C10899CB0AAF3602F24?ynotemdtimestamp=1545734633728)
 
 在github上，获取博客的地址 SSH
 
-![image](http://note.youdao.com/yws/res/24203/A3757381A6094C10899CB0AAF3602F24)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/A3757381A6094C10899CB0AAF3602F24?ynotemdtimestamp=1545734633728)
 
 然后在codingtkBlog根目录下的 _config.yml 文件，修改 deploy 下的配置
 
-![image](http://note.youdao.com/yws/res/24206/6FA4F7C15594453D9475C07AEF67FB5D)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/6FA4F7C15594453D9475C07AEF67FB5D?ynotemdtimestamp=1545734633728)
 
 
 ```
@@ -145,7 +145,7 @@ $ curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest |
 
 修改博客根目录(不是next主题)下的_config.yml文件，搜索theme字段，并将其值修改为next。
 
-![image](http://note.youdao.com/yws/res/24243/2DF3DB654EE74FD4B080688250BF7643)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/2DF3DB654EE74FD4B080688250BF7643?ynotemdtimestamp=1545734633728)
 
 ```
 hexo clean  //清理缓存
@@ -173,15 +173,15 @@ https://maoai-xianyu.github.io/  切换主题
 
 1. 打开腾讯云控制后台，点击域名查看对应的信息
 
-![image](http://note.youdao.com/yws/res/24264/2D8C4DF6D6FF46558054571706EDA8A9)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/2D8C4DF6D6FF46558054571706EDA8A9?ynotemdtimestamp=1545734633728)
 
 2. 配置域名解析
 
-![image](http://note.youdao.com/yws/res/24267/2228B982C03F40E3B8EE8DF1EF42B3DC)
+![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/2228B982C03F40E3B8EE8DF1EF42B3DC?ynotemdtimestamp=1545734633728)
 
 3. 在本地博客目录下创建 CNAME 文件
     1. 在 odingtkBlog/public 创建 CNAME 文件
-    ![image](http://note.youdao.com/yws/res/24273/F5C1D8938A2C4490B94E8865FB67F412)
+    ![image](http://note.youdao.com/yws/public/resource/5bcd7e6742690f507beef37b094e68c7/F5C1D8938A2C4490B94E8865FB67F412?ynotemdtimestamp=1545734633728)
     2. 打开 CNAME 文件 添加域名 www.codingtk.com
     3. 发布CNAME
     ```
