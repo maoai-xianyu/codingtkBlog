@@ -5,7 +5,7 @@ tags:
 	- Hexo
 	- Git
 	- Blog
-categories: "Hexo建立博客，发布到Git"
+categories: "Hexo"
 ---
 
 ## Hexo Mac和Git搭建个人Blog以及绑定自己的域名流程 
