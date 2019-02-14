@@ -164,11 +164,18 @@ https://maoai-xianyu.github.io/  切换主题
 1. [hexo的next主题个性化教程](https://www.jianshu.com/p/f054333ac9e6)
 2. [Hexo设置主题以及Next主题个性设置](https://www.jianshu.com/p/b20fc983005f)
 
-### 六、管理博客在不同的电脑
+### 六、发布博客
+
+1. 进入博客目录 我的是 codingtkBlog
+2. hexo new "我个人博客的第一篇博客，哈哈哈..."
+3. hexo g   //生成网页
+4. hexo d  //部署到远端(github)
+
+### 七、管理博客在不同的电脑
 
 我们将我们本地生成的blog，提交的gihub，那么就可以在不同的电脑上去整理了。
 
-### 七、配置自己的域名
+### 八、配置自己的域名
 我的是腾讯的域名  www.codingtk.com
 
 1. 打开腾讯云控制后台，点击域名查看对应的信息
