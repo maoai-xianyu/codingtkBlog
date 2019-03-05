@@ -41,15 +41,15 @@ categories: "Gradle"
 2. 下载成功后执行
     1. brew info gradle 查看gradle的信息
     
-    ![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/F13D70CA079C46D8BFE87E7206532830?ynotemdtimestamp=1545808939354)
+    ![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/F13D70CA079C46D8BFE87E7206532830?ynotemdtimestamp=1551750243655)
     
     2. gradle -v 查看gradle的版本信息
     
-    ![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/2218B44C153A4AAD92EB69040E25A455?ynotemdtimestamp=1545808939354)
+    ![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/2218B44C153A4AAD92EB69040E25A455?ynotemdtimestamp=1551750243655)
     
 3. 执行上面的命令，下载的是目前**brew**中最新的gradle版本，我的目前是 [gradle 5.0](https://github.com/Homebrew/homebrew-core/blob/master/Formula/gradle.rb)
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/597CB372686F4071BFBE11B4AFBFD8C9?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/597CB372686F4071BFBE11B4AFBFD8C9?ynotemdtimestamp=1551750243655)
 
 ### 下载其他版本的gradle
 
@@ -57,7 +57,7 @@ categories: "Gradle"
 
 1. 下载需要安装的[gradle版本](https://gradle.org/releases/)，我这里是 [gradle 4.6](https://gradle.org/next-steps/?version=4.6&format=bin)
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/1DEC0724364B455F8C469CCC06FA3B5E?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/1DEC0724364B455F8C469CCC06FA3B5E?ynotemdtimestamp=1551750243655)
 
 2. 查看文件sha256
 
@@ -70,6 +70,7 @@ gradle 4.6对应的 sha256 是 9af7345c199f1731c187c96d3fe3d31f5405192a42046bafa
 ![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/11A6E3CAF1064470B1ACBA10C981B1C8?ynotemdtimestamp=1545808939354)
 
 3. 下载brew的源码 [homebrew-core](https://github.com/Homebrew/homebrew-core)
+
 4. 在**homebrew-core** -> Formula -> 找到**gradle.rb**文件，copy一份出来，进行修改
 
 ```
@@ -105,11 +106,11 @@ end
 brew install /Users/zhangkun/zk_develop/gradle/gradle.rb
 ```
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/E6B9E5834AA1482F9B0682F874976FF8?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/E6B9E5834AA1482F9B0682F874976FF8?ynotemdtimestamp=1551750243655)
 
 6. 提示error后执行建议的命令 brew unlink gradle 减除关联
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/1785FE1D055E45DD87786DD99B0F4C28?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/1785FE1D055E45DD87786DD99B0F4C28?ynotemdtimestamp=1551750243655)
 
 ```
 brew unlink gradle
@@ -117,19 +118,19 @@ brew unlink gradle
 
 7. 然后继续第5步骤
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/A692B4615FF54C7695B5183B7EAE056C?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/A692B4615FF54C7695B5183B7EAE056C?ynotemdtimestamp=1551750243655)
 
 8. 执行 brew info gradle 查看安装的gradle的版本
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/95653F86369845CC9201B9BA5D43CBBA?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/95653F86369845CC9201B9BA5D43CBBA?ynotemdtimestamp=1551750243655)
 
 9. 切换版本  brew switch gradle 4.6
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/9DEA551D338342C7A13C0EB554DDA339?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/9DEA551D338342C7A13C0EB554DDA339?ynotemdtimestamp=1551750243655)
 
 10. 查看当前使用的版本 gradle -v
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/6B6EBE5033104935909EC99CCD078289?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/6B6EBE5033104935909EC99CCD078289?ynotemdtimestamp=1551750243655)
 
 
 ### 结束
@@ -137,9 +138,9 @@ brew unlink gradle
 1. 之后用gradle打包ok
 2. 在Android Studio 中修改本地环境
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/FD7A82A5E5AB448BBD3D2E9A1323536E?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/FD7A82A5E5AB448BBD3D2E9A1323536E?ynotemdtimestamp=1551750243655)
 
-![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/4E4DE6A1AB4741BBB6AACDD9D3F5010B?ynotemdtimestamp=1545808939354)
+![image](http://note.youdao.com/yws/public/resource/a9600243aef545516065218cc469e3da/4E4DE6A1AB4741BBB6AACDD9D3F5010B?ynotemdtimestamp=1551750243655)
 
 3. 本文参考 [homebrew 安装指定版本gradle（软件）](https://www.jianshu.com/p/a537d9a4034f)
 
